@@ -1,0 +1,6 @@
+framework module Pods_TangramMapDem {
+  umbrella header "Pods-TangramMapDem-umbrella.h"
+
+  export *
+  module * { export * }
+}

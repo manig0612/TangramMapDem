@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		18ED40EC218F22A8F24A0405B0874A11 /* Tangram-es */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E875B28B6CFE4A91C9ADB87568020324 /* Build configuration list for PBXAggregateTarget "Tangram-es" */;
+			buildPhases = (
+				E07F6BF35A81661C1A94FCA0C12F0EF0 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = "Tangram-es";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		3FABCC2B8FBDA7E20BC55B99F861C883 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4618AA409A8E3FA1417901A98795FAAD /* Pods-TangramMapDem-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A231EA6EFB4BF2A24468538A4FEE3BE8 /* Pods-TangramMapDem-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67F9CB703D8E2AA771FC5DA78AD9864F /* Pods-TangramMapDem-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A04B11C84AA77FD86868A955C7DBA7 /* Pods-TangramMapDem-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B24F42244F263FF8E7A4CE8D1E9F2DA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18ED40EC218F22A8F24A0405B0874A11;
+			remoteInfo = "Tangram-es";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31ABC826D82A0B667DE4E2E737D0C377 /* Tangram-es.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Tangram-es.release.xcconfig"; sourceTree = "<group>"; };
+		3F90CF38E202A2AF2B9CE2E2F132B6FF /* Pods-TangramMapDem-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TangramMapDem-Info.plist"; sourceTree = "<group>"; };
+		4F689DF6242350F19AEE4BACE4E6667B /* Pods-TangramMapDem-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TangramMapDem-acknowledgements.plist"; sourceTree = "<group>"; };
+		671E8BA89C7B09EDF70CFECDF2770825 /* Pods-TangramMapDem-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TangramMapDem-acknowledgements.markdown"; sourceTree = "<group>"; };
+		68E0650BFD9A3F20EC776A2666BBDDEF /* Pods-TangramMapDem.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TangramMapDem.modulemap"; sourceTree = "<group>"; };
+		6EEF64A0FF31EAE1C5C73D2C1B073D06 /* Pods-TangramMapDem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TangramMapDem.debug.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		80E7BDAFF9AC4683CF0AB4C29886AC39 /* Tangram-es.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Tangram-es.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A231EA6EFB4BF2A24468538A4FEE3BE8 /* Pods-TangramMapDem-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TangramMapDem-umbrella.h"; sourceTree = "<group>"; };
+		A7AEF4983F38CBB7A1B39CBABD760319 /* Pods-TangramMapDem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TangramMapDem.release.xcconfig"; sourceTree = "<group>"; };
+		B4FC5FF86CC2C75DFBC497FE7AA9BA25 /* Pods-TangramMapDem-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TangramMapDem-frameworks.sh"; sourceTree = "<group>"; };
+		B5548918595E5970CFF0BC0CD7488D6B /* TangramMap.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = TangramMap.xcframework; sourceTree = "<group>"; };
+		C48ABECF6F4D8FF0E7867DCA45DAA148 /* Tangram-es-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Tangram-es-xcframeworks.sh"; sourceTree = "<group>"; };
+		E315DBF281B20EA495C784D888BD7F2D /* Pods-TangramMapDem */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TangramMapDem"; path = Pods_TangramMapDem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6A04B11C84AA77FD86868A955C7DBA7 /* Pods-TangramMapDem-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TangramMapDem-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95BEA49CFF17AD8B7649B4304F31CBE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FABCC2B8FBDA7E20BC55B99F861C883 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CB95DC219BC028DA692BE3C817D8587 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D13D462B3C5FC584D5A6642396D1E21E /* Tangram-es */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		63C5A8285C5EC0FBB7EF7EFE74F3A5B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5548918595E5970CFF0BC0CD7488D6B /* TangramMap.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E1D590126CE460B5CBDA63D7B3E5B08 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C48ABECF6F4D8FF0E7867DCA45DAA148 /* Tangram-es-xcframeworks.sh */,
+				80E7BDAFF9AC4683CF0AB4C29886AC39 /* Tangram-es.debug.xcconfig */,
+				31ABC826D82A0B667DE4E2E737D0C377 /* Tangram-es.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Tangram-es";
+			sourceTree = "<group>";
+		};
+		86E60EE58C171D9D661953AD32D3EA84 /* Pods-TangramMapDem */ = {
+			isa = PBXGroup;
+			children = (
+				68E0650BFD9A3F20EC776A2666BBDDEF /* Pods-TangramMapDem.modulemap */,
+				671E8BA89C7B09EDF70CFECDF2770825 /* Pods-TangramMapDem-acknowledgements.markdown */,
+				4F689DF6242350F19AEE4BACE4E6667B /* Pods-TangramMapDem-acknowledgements.plist */,
+				E6A04B11C84AA77FD86868A955C7DBA7 /* Pods-TangramMapDem-dummy.m */,
+				B4FC5FF86CC2C75DFBC497FE7AA9BA25 /* Pods-TangramMapDem-frameworks.sh */,
+				3F90CF38E202A2AF2B9CE2E2F132B6FF /* Pods-TangramMapDem-Info.plist */,
+				A231EA6EFB4BF2A24468538A4FEE3BE8 /* Pods-TangramMapDem-umbrella.h */,
+				6EEF64A0FF31EAE1C5C73D2C1B073D06 /* Pods-TangramMapDem.debug.xcconfig */,
+				A7AEF4983F38CBB7A1B39CBABD760319 /* Pods-TangramMapDem.release.xcconfig */,
+			);
+			name = "Pods-TangramMapDem";
+			path = "Target Support Files/Pods-TangramMapDem";
+			sourceTree = "<group>";
+		};
+		C0E0B38514BB289E792D7B98B7180EE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E315DBF281B20EA495C784D888BD7F2D /* Pods-TangramMapDem */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2CB95DC219BC028DA692BE3C817D8587 /* Pods */,
+				C0E0B38514BB289E792D7B98B7180EE8 /* Products */,
+				F7ED9B73A7866B44683485806D0E1634 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D13D462B3C5FC584D5A6642396D1E21E /* Tangram-es */ = {
+			isa = PBXGroup;
+			children = (
+				63C5A8285C5EC0FBB7EF7EFE74F3A5B8 /* Frameworks */,
+				6E1D590126CE460B5CBDA63D7B3E5B08 /* Support Files */,
+			);
+			name = "Tangram-es";
+			path = "Tangram-es";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7ED9B73A7866B44683485806D0E1634 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				86E60EE58C171D9D661953AD32D3EA84 /* Pods-TangramMapDem */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		598E5DFF2816CD002DC4B0E043152AE4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4618AA409A8E3FA1417901A98795FAAD /* Pods-TangramMapDem-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9F21644382FF36BD7433481D3A6AC152 /* Pods-TangramMapDem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A153017CEA8C656C93385BFB8090F0D5 /* Build configuration list for PBXNativeTarget "Pods-TangramMapDem" */;
+			buildPhases = (
+				598E5DFF2816CD002DC4B0E043152AE4 /* Headers */,
+				A8658F9426EF91D486D14BE09BCA2F0D /* Sources */,
+				95BEA49CFF17AD8B7649B4304F31CBE3 /* Frameworks */,
+				77ADF54B6A8C01F5D2F45C0745DBA205 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74EDC7CE449D6F782CFDD7CAE389B04A /* PBXTargetDependency */,
+			);
+			name = "Pods-TangramMapDem";
+			productName = Pods_TangramMapDem;
+			productReference = E315DBF281B20EA495C784D888BD7F2D /* Pods-TangramMapDem */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C0E0B38514BB289E792D7B98B7180EE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F21644382FF36BD7433481D3A6AC152 /* Pods-TangramMapDem */,
+				18ED40EC218F22A8F24A0405B0874A11 /* Tangram-es */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77ADF54B6A8C01F5D2F45C0745DBA205 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E07F6BF35A81661C1A94FCA0C12F0EF0 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Tangram-es/Tangram-es-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Tangram-es/Tangram-es-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Tangram-es/Tangram-es-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8658F9426EF91D486D14BE09BCA2F0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67F9CB703D8E2AA771FC5DA78AD9864F /* Pods-TangramMapDem-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74EDC7CE449D6F782CFDD7CAE389B04A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Tangram-es";
+			target = 18ED40EC218F22A8F24A0405B0874A11 /* Tangram-es */;
+			targetProxy = B24F42244F263FF8E7A4CE8D1E9F2DA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		032504F201C69275441D32C68CCD1F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		1D71223552BB4C80762D66D1BF2B443C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80E7BDAFF9AC4683CF0AB4C29886AC39 /* Tangram-es.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48F67AB1E5DBE79CCF2F86C75296AB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5F4DD701EDD5BD59942EE35AAF590272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31ABC826D82A0B667DE4E2E737D0C377 /* Tangram-es.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B33146121B5B5723F4ED50C94C2E8EC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7AEF4983F38CBB7A1B39CBABD760319 /* Pods-TangramMapDem.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TangramMapDem/Pods-TangramMapDem-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TangramMapDem/Pods-TangramMapDem.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BB9B0F0CB3FEA221B1D7F248E3D3264C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EEF64A0FF31EAE1C5C73D2C1B073D06 /* Pods-TangramMapDem.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TangramMapDem/Pods-TangramMapDem-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TangramMapDem/Pods-TangramMapDem.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48F67AB1E5DBE79CCF2F86C75296AB01 /* Debug */,
+				032504F201C69275441D32C68CCD1F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A153017CEA8C656C93385BFB8090F0D5 /* Build configuration list for PBXNativeTarget "Pods-TangramMapDem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB9B0F0CB3FEA221B1D7F248E3D3264C /* Debug */,
+				B33146121B5B5723F4ED50C94C2E8EC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E875B28B6CFE4A91C9ADB87568020324 /* Build configuration list for PBXAggregateTarget "Tangram-es" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D71223552BB4C80762D66D1BF2B443C /* Debug */,
+				5F4DD701EDD5BD59942EE35AAF590272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

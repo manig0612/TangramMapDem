@@ -1,0 +1,16 @@
+PODS:
+  - Tangram-es (0.17.1)
+
+DEPENDENCIES:
+  - Tangram-es (~> 0.17.1)
+
+SPEC REPOS:
+  trunk:
+    - Tangram-es
+
+SPEC CHECKSUMS:
+  Tangram-es: 628b634f7fc09d2217469b9914de00d9de49ff9d
+
+PODFILE CHECKSUM: 857b5c232f03ee5a2b2c1fd5d8c1f7cee907a9f0
+
+COCOAPODS: 1.14.3
